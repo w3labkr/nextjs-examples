@@ -1,0 +1,12 @@
+node_modules/
+dist/
+
+# Ignore minify files
+**/*.min.css
+**/*.min.js
+
+# Ignore config files
+**/*.config.js
+
+# Ignore specific files
+.eslintrc.js
