@@ -1,0 +1,40 @@
+/**
+ * Sanitize.css
+ *
+ * @link https://github.com/csstools/sanitize.css/
+ */
+
+/* sanitize.css is a CSS library that provides consistent, cross-browser default styling of HTML elements alongside useful defaults. */
+@import "@/styles/vendors/sanitize.css/13.0.0/sanitize.css";
+
+/* A separate stylesheet that normalizes form controls without side effects. */
+@import "@/styles/vendors/sanitize.css/13.0.0/forms.css";
+
+/* A separate stylesheet that applies a comfortable measure to plain documents. */
+@import "@/styles/vendors/sanitize.css/13.0.0/assets.css";
+
+/* A separate stylesheet that normalizes typography using system interface fonts. */
+@import "@/styles/vendors/sanitize.css/13.0.0/typography.css";
+
+/* A separate stylesheet for restricting motion when the user has requested this at system level. */
+@import "@/styles/vendors/sanitize.css/13.0.0/reduce-motion.css";
+
+/* A separate stylesheet that adds support for using system-ui in Firefox. */
+@import "@/styles/vendors/sanitize.css/13.0.0/system-ui.css";
+
+/* A separate stylesheet that adds support for using ui-monospace in Chrome, Edge, and Firefox. */
+@import "@/styles/vendors/sanitize.css/13.0.0/ui-monospace.css";
+
+/**
+ * Normalize.css
+ *
+ * @link https://github.com/necolas/normalize.css
+ */
+/* @import '@/styles/vendors/normalize.css/8.0.1/normalize.css'; */
+
+/**
+ * Eric Meyer's CSS Reset
+ *
+ * @link https://meyerweb.com/eric/tools/css/reset/
+ */
+/* @import '@/styles/vendors/reset.css/2.0.0/reset.css'; */
