@@ -1,0 +1,17 @@
+@use '@/styles/abstracts/variables' as *;
+
+.title {
+  color: #ff0404;
+
+  &--type-a {
+    color: $green-color;
+  }
+}
+
+.title--type-b {
+  color: var(--red-color);
+}
+
+.title--type-c {
+  color: $blue-color;
+}

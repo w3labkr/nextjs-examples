@@ -1,0 +1,9 @@
+@use '@/styles/abstracts/variables' as *;
+
+.title {
+  color: #ff0404;
+
+  &:hover {
+    color: $green-color;
+  }
+}
